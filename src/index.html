@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>goit-js-hw-10</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <load src="./partials/footer.html" />
+<body>
+  <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Домашнє завдання</h1>
+        <ul class="hw-list">
+          <li class="hw-item">
+            <a class="hw-link" href="./1-timer.html">Завдання 1 — Таймер зворотного відліку</a>
+          </li>
+          <li class="hw-item">
+            <a class="hw-link" href="./2-snackbar.html">Завдання 2 — Генератор промісів</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <load src="./partials/footer.html" />
+
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>

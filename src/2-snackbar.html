@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генератор промісів</title>
+  <!-- Головні стилі проєкту -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- Посилання назад на головну -->
+  <a href="./index.html" class="back-link">Назад</a>
+
+  <div class="container">
+    <!-- Твоя форма з умови ДЗ -->
+    <form class="form">
+      <label class="form-label">
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset class="form-fieldset">
+        <legend>State</legend>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="submit-btn">Create notification</button>
+    </form>
+  </div>
+
+  <!-- Підключаємо JS як модуль -->
+  <script type="module" src="./js/2-snackbar.js"></script>
+</body>
+
+</html>
