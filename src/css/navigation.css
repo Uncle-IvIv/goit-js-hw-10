@@ -1,0 +1,25 @@
+.hw-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    list-style: none;
+    padding: 0;
+}
+
+.hw-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4e75ff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #4e75ff;
+    border-radius: 8px;
+    transition: all 250ms ease;
+}
+
+.hw-link:hover {
+    background-color: #4e75ff;
+    color: #ffffff;
+}
